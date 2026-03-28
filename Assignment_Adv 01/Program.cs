@@ -9,11 +9,32 @@
     //and code reusability.
 
     #endregion
+    #region Q02
+    //public class Container<T>
+    //{
+    //    private T item;
+
+    //    public void Add(T value)
+    //    {
+    //        item = value;
+    //    }
+
+    //    public T Get()
+    //    {
+    //        return item;
+    //    }
+    //}
+    #endregion
+
     internal class Program
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello, World!");
-        }
+        //static void Main(string[] args)
+        //{
+        //    Container<int> c = new Container<int>();
+
+        //    c.Add(5);
+
+        //    Console.WriteLine(c.Get());
+        //}
     }
 }
