@@ -74,6 +74,15 @@
     //    T GetById(int id);
     //}
     #endregion
+    #region Q07
+    //must be a value type
+    //----/
+    //public class ValueHolder<T> where T : struct
+    //{
+    //    public T Value { get; set; }
+    //}
+    #endregion
+
     internal class Program
     {
         //static void Main(string[] args)
