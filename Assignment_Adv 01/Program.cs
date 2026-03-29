@@ -204,6 +204,15 @@
 
     #endregion
     #region 18
+    //Each closed generic type has its own copy of static fields.
+    //Generic classes can inherit from other generic or non-generic classes.
+    //Several patterns are possible.
+    //1: Inherit and Pass Type Parameter
+    //2: Inherit with Concrete Type
+    //3: Add New Type Parameter
+
+
+
     #endregion
     #region 19
     #endregion
