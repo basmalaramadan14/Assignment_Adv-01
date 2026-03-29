@@ -75,9 +75,17 @@
     //}
     #endregion
     #region Q07
-    //must be a value type
+    // T must be a value type
     //----/
     //public class ValueHolder<T> where T : struct
+    //{
+    //    public T Value { get; set; }
+    //}
+    #endregion
+    #region Q08
+    //T must be a reference type
+    //-----//
+    //public class RefHolder<T> where T : class
     //{
     //    public T Value { get; set; }
     //}
