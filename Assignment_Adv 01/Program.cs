@@ -25,16 +25,37 @@
     //    }
     //}
     #endregion
+    #region Q03
+    //Generic classes can have multiple type parameters.
+    //Common examples: Dictionary<TKey, TValue>, Tuple<T1, T2>
+    //public class Pair<TFirst, TSecond>
+    //{
+    //    public TFirst First { get; set; }
+    //    public TSecond Second { get; set; }
 
+    //    public Pair(TFirst first, TSecond second)
+    //    {
+    //        First = first;
+    //        Second = second;
+    //    }
+
+    //    public void Deconstruct(out TFirst first, out TSecond second)
+    //    {
+    //        first = First;
+    //        second = Second;
+    //    }
+    //}
+
+    #endregion
     internal class Program
     {
         //static void Main(string[] args)
         //{
-        //    Container<int> c = new Container<int>();
 
-        //    c.Add(5);
+        //    Pair<int, string> p = new Pair<int, string>(1, "Hello");
 
-        //    Console.WriteLine(c.Get());
+        //    Console.WriteLine(p.First);
+        //    Console.WriteLine(p.Second);
         //}
     }
 }
