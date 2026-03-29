@@ -102,6 +102,20 @@
     //}
     #endregion
     #region 10
+    //where T : IInterface requires T to implement a specific interface.
+    //This enables calling interface methods on type parameter.
+    //public interface IPrintable
+    //{
+    //    void Print();
+    //}
+
+    //public class Printer<T> where T : IPrintable
+    //{
+    //    public void PrintItem(T item)
+    //    {
+    //        item.Print();
+    //    }
+    //}
     #endregion
     #region 11
     #endregion
