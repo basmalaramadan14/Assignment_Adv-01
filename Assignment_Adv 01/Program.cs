@@ -90,7 +90,39 @@
     //    public T Value { get; set; }
     //}
     #endregion
-
+    #region Q09
+    //T must have parameterless constructor 
+    //------//
+    //public class Factory<T> where T : new()
+    //{
+    //    public T Create()
+    //    {
+    //        return new T();
+    //    }
+    //}
+    #endregion
+    #region 10
+    #endregion
+    #region 11
+    #endregion
+    #region 12
+    #endregion
+    #region 13
+    #endregion
+    #region 14
+    #endregion
+    #region 15
+    #endregion
+    #region 16
+    #endregion
+    #region 17
+    #endregion
+    #region 18
+    #endregion
+    #region 19
+    #endregion
+    #region 20
+    #endregion
     internal class Program
     {
         //static void Main(string[] args)
