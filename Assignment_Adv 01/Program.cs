@@ -118,26 +118,39 @@
     //}
     #endregion
     #region 11
+    //T must inherit from BaseClass
+    //---//
+    //public class Employee
+    //{
+    //    public string Name { get; set; }
+    //}
+    //
+    //public class Company<T> where T : Employee
+    //{
+    //    public void Show(T emp)
+    //    {
+    //        Console.WriteLine(emp.Name);
+    //    }
     #endregion
-    #region 12
-    #endregion
-    #region 13
-    #endregion
-    #region 14
-    #endregion
-    #region 15
-    #endregion
-    #region 16
-    #endregion
-    #region 17
-    #endregion
-    #region 18
-    #endregion
-    #region 19
-    #endregion
-    #region 20
-    #endregion
-    internal class Program
+        #region 12
+        #endregion
+        #region 13
+        #endregion
+        #region 14
+        #endregion
+        #region 15
+        #endregion
+        #region 16
+        #endregion
+        #region 17
+        #endregion
+        #region 18
+        #endregion
+        #region 19
+        #endregion
+        #region 20
+        #endregion
+        internal class Program
     {
         //static void Main(string[] args)
         //{
