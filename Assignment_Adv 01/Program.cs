@@ -147,6 +147,10 @@
     //}
     #endregion
     #region 13
+    //The default keyword in generics is used to return
+    //the default value of a type T without knowing the actual type.
+    //For value types : it returns values like 0, false
+   //For reference types :it returns null
     #endregion
     #region 14
     #endregion
