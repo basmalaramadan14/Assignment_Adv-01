@@ -184,19 +184,32 @@
     //Marked with in keyword. T can only appear in input positions.
     //----//
     //public interface IConsumer<in T>
-//{
-//    void Consume(T item);
-//}
-#endregion
-#region 17
-#endregion
-#region 18
-#endregion
-#region 19
-#endregion
-#region 20
-#endregion
-internal class Program
+    //{
+    //    void Consume(T item);
+    //}
+    #endregion
+    #region 17
+    //Covariance (out)
+
+    //Derived → Base
+    //Output only (return)
+    //IEnumerable<out T>
+    //Producer of T
+    //------//
+    //Contravariance (in)
+    //Base → Derived
+    //Input only (parameter)
+    //Action<in T>
+    //Consumer of T
+
+    #endregion
+    #region 18
+    #endregion
+    #region 19
+    #endregion
+    #region 20
+    #endregion
+    internal class Program
     {
         //static void Main(string[] args)
         //{
