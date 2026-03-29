@@ -150,27 +150,34 @@
     //The default keyword in generics is used to return
     //the default value of a type T without knowing the actual type.
     //For value types : it returns values like 0, false
-   //For reference types :it returns null
+    //For reference types :it returns null
     #endregion
     #region 14
     //public class SafeList<T>
-//{
-//    private List<T> items = new List<T>();
+    //{
+    //    private List<T> items = new List<T>();
 
-//    public void Add(T item)
-//    {
-//        items.Add(item);
-//    }
+    //    public void Add(T item)
+    //    {
+    //        items.Add(item);
+    //    }
 
-//    public T Get(int index)
-//    {
-//        if (index < 0 || index >= items.Count)
-//            return default; 
+    //    public T Get(int index)
+    //    {
+    //        if (index < 0 || index >= items.Count)
+    //            return default; 
 
-//        return items[index];
+    //        return items[index];
     //}
     #endregion
     #region 15
+    //Covariance allows you to use a more derived type than originally specified.
+    //Marked with out keyword. T can only appear in output positions.
+    //-----//
+    //public interface IProducer<out T>
+    //{
+    //    T GetItem();
+    //}
     #endregion
     #region 16
     #endregion
