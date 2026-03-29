@@ -47,7 +47,18 @@
     //}
 
     #endregion
-    internal class Program
+    #region Q04
+    //A generic method declares its own type parameter(s). It can exist in both generic and non-generic classes.
+    //The compiler often infers the type argument.
+    //-------//
+    //public static void Swap<T>(ref T a, ref T b)
+//{
+//    T temp = a;
+//    a = b;
+//    b = temp;
+//}
+#endregion
+internal class Program
     {
         //static void Main(string[] args)
         //{
