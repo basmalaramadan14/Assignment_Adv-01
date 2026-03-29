@@ -64,6 +64,16 @@
     //    return a.CompareTo(b) > 0 ? a : b;
     //}
     #endregion
+    #region 06
+    //Generic interfaces define contracts with type parameters.
+    //Classes implementing them specify the actual types.
+    //------//
+    //public interface IRepository<T>
+    //{
+    //    void Add(T item);
+    //    T GetById(int id);
+    //}
+    #endregion
     internal class Program
     {
         //static void Main(string[] args)
